@@ -1,0 +1,18 @@
+{
+  "orderID": 12345,
+  "shoperName": "Ivan Ivanov",
+  "shoperEmail": "ivanov@example.com",
+  "contents": [
+    {
+      "productID": 34,
+      "productName": "Super product",
+      "quantity": 1
+    },
+    {
+      "productID": 56,
+      "productName": "Wonderful product",
+      "quantity": 3
+    }
+  ],
+  "orderCompleted": true
+}
