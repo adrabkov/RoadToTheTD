@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User2">
+    <test name="TestTask">
+        <parameter name="login" value="testvhp3@gmail.com"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="HW5.TestMaven"/>
+        </classes>
+    </test>
+
+</suite>
