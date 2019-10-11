@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DataForSearching">
+    <test name="SearchFilm">
+        <parameter name="filmName" value="Игра"/>
+        <parameter name="filmType" value="сериал"/>
+        <parameter name="fromDate" value="2011"/>
+        <parameter name="toDate" value="2020"/>
+        <parameter name="expectedFilmName" value="Игра престолов"/>
+        <classes>
+            <class name="Kinopoisk"/>
+        </classes>
+    </test>
+
+</suite>
